@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGIServiceConsumer
+Bundle-SymbolicName: OSGIServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgiserviceconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: OSGIServiceConsumer
+Import-Package: erbillingserviceproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: osgiserviceconsumer

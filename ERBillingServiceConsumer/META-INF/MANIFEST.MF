@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ERBillingServiceConsumer
+Bundle-SymbolicName: ERBillingServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: erbillingserviceconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ERBillingServiceConsumer
+Import-Package: erbillingserviceproducer,
+ org.osgi.framework;version="1.3.0"
+Export-Package: erbillingserviceconsumer

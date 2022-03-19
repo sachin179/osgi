@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FrameBillingConsumer
+Bundle-SymbolicName: FrameBillingConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: framebillingconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: FrameBillingConsumer
+Import-Package: framebillingproduser,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: framebillingconsumer

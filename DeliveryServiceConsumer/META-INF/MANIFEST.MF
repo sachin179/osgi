@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DeliveryServiceConsumer
+Bundle-SymbolicName: DeliveryServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: deliveryserviceconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: DeliveryServiceConsumer
+Import-Package: deliveryserviceproducer,
+ org.osgi.framework;version="1.3.0"
+Export-Package: deliveryserviceconsumer
